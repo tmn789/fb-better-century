@@ -987,3 +987,9 @@ body {
   }
 }
 
+.custom-footer {
+    display: flex;
+    flex-wrap: wrap;
+    background: $bc-navy;
+}
+
