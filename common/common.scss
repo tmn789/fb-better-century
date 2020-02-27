@@ -772,7 +772,8 @@ body {
 .header-buttons {
   .sign-up-button,
   .login-button {
-    background: $fb-dark;
+    background: $bc-pink;
+    font-size: 1em;
     color: $tertiary-low;
     .d-icon {
       display: none;
