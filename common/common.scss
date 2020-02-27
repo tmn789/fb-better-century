@@ -57,7 +57,7 @@ $bc-orange: #FC7A28;
     #main-outlet {
       display: grid;
       grid-column-gap: 1em;
-      padding-top: 4em;
+      padding-top: 6em;
 
       @if $sidebar-alignment == "left" {
         grid-template-columns: 2fr 505px 3.5fr; // 12 column grid
