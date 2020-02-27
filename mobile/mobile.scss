@@ -2,7 +2,7 @@
 @import "variables";
 
 body {
-  background-color: $background;
+  background-color: #FFFEF4;
 }
 
 body:not(.categories-list) .topic-list {
@@ -21,7 +21,7 @@ body:not(.categories-list) .topic-list {
 }
 
 #main-outlet {
-  padding-top: 3em;
+  padding-top: 5em;
 }
 
 tr {
@@ -137,3 +137,4 @@ tr {
 .subcategory-list-item.category {
   width: calc(100% - 10px);
 }
+
