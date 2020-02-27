@@ -1,3 +1,19 @@
+$bc-navy : #000845;
+$bc-yellow: #FFF400;
+$bc-pink: #F2136E;
+$bc-green:#00FFA7;
+$bc-orange: #FC7A28;
+
+
+.d-header {
+    background-color: $bc-navy;
+    height: 70px;
+}
+.bc-category-header {
+  margin-top: 0.5em;
+  color: $bc-navy;
+  display: none;
+}
 @import "common/foundation/variables";
 @import "variables";
 
@@ -223,7 +239,7 @@
 // Global
 
 body {
-  background: $background;
+  background: #FFFEF4;
 }
 
 .topic-list {
@@ -331,14 +347,14 @@ body {
   border-bottom: 1px solid $header-border;
   box-shadow: none;
   .d-icon {
-    color: $fb-dark;
+    color: #FFFEF4;
   }
 }
 
 .d-header-icons .icon:hover .d-icon,
 .d-header-icons .icon:focus .d-icon,
 .drop-down-mode .d-header-icons .active .icon .d-icon {
-  color: $tertiary;
+  color: #000845;
 }
 
 .d-header-icons .icon:hover,
@@ -938,3 +954,23 @@ body:not(.categories-list) .topic-list {
     }
   }
 }
+@font-face {
+  font-family: WorkSans;
+  src: url($work_sans_regular_ttf) format('truetype'),
+       url($work_sans_regular_woff) format('woff'),
+       url($work_sans_regular_woff2) format('woff2');
+  font-weight: normal;
+}
+@font-face {
+  font-family: WorkSans;
+  src: url($work_sans_bold_ttf) format('truetype'),
+       url($work_sans_bold_woff) format('woff'),
+       url($work_sans_bold_woff2) format('woff2');
+  font-weight: bold;
+}
+
+body {
+    font-family: WorkSans;
+    font-size: 13px;
+}
+
