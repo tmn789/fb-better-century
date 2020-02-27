@@ -125,7 +125,7 @@ $bc-orange: #FC7A28;
       .container {
         position: -webkit-sticky; // required for Safari
         position: sticky;
-        top: 4em; // required for sticky
+        top: 6em; // required for sticky
       }
 
       .btn {
@@ -383,7 +383,7 @@ body {
 
 .sidebar {
   display: none;
-  top: 4em;
+  top: 6em;
   position: sticky;
   max-width: 310px;
   @media screen and (max-width: 920px) {
