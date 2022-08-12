@@ -955,20 +955,10 @@ body:not(.categories-list) .topic-list {
     }
   }
 }
-@font-face {
-  font-family: WorkSans;
-  src: url($work_sans_regular_ttf) format('truetype'),
-       url($work_sans_regular_woff) format('woff'),
-       url($work_sans_regular_woff2) format('woff2');
-  font-weight: normal;
-}
-@font-face {
-  font-family: WorkSans;
-  src: url($work_sans_bold_ttf) format('truetype'),
-       url($work_sans_bold_woff) format('woff'),
-       url($work_sans_bold_woff2) format('woff2');
-  font-weight: bold;
-}
+
+
+
+
 
 body {
     font-family: WorkSans;
